@@ -1,0 +1,120 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align the content */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add some space below the title */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .view-button,
+  .delete-button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination-button {
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  .detail-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  /* styles.css */
+
+/* Styling for the "View Details" button */
+.view-button {
+    background-color: #007bff; /* Blue color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding */
+    margin-right: 10px; /* Margin to separate from other buttons */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  /* Styling for the "Delete" button */
+  .delete-button {
+    background-color: #dc3545; /* Red color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }
+/* Styling for the "Go Back" button */
+.go-back-button {
+    background-color: #c3e6cb; /* Light green color */
+    color: #155724; /* Dark green text */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding */
+    margin-right: 10px; /* Margin to separate from other buttons */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .go-back-button:hover {
+    background-color: #b1dfbb; /* Darker green color on hover */
+  }
+  
+  /* Positioning the "Go Back" button on the left side */
+  .go-back-button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px; /* Add margin at the bottom to separate from other content */
+  }
+    
+  
